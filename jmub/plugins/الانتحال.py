@@ -65,30 +65,40 @@ async def _(event):
         )
 
 
-@jmub.ar_cmd(
-    pattern="اعادة$",
-    command=("اعادة", plugin_category),
-    info={
-        "header": "To revert back to your original name , bio and profile pic",
-        "note": "For proper Functioning of this command you need to set AUTONAME and DEFAULT_BIO with your profile name and bio respectively.",
-        "usage": "{tr}revert",
-    },
-)
-async def _(event):
-    "To reset your original details"
-    name = f"{DEFAULTUSER}"
-    blank = ""
-    bio = f"{DEFAULTUSERBIO}"
+@jmub.ar_cmd(pattern=f"{ANT7AL}$")
+
+async def revert(event):
+
+    firstname = DEFAULTUSER
+
+    lastname = gvarstatus("LAST_NAME") or ""
+
+    bio = DEFAULTUSERBIO
+
     await event.client(
+
         functions.photos.DeletePhotosRequest(
+
             await event.client.get_profile_photos("me", limit=1)
+
         )
+
     )
+
     await event.client(functions.account.UpdateProfileRequest(about=bio))
-    await event.client(functions.account.UpdateProfileRequest(first_name=name))
-    await event.client(functions.account.UpdateProfileRequest(last_name=blank))
-    await edit_delete(event, "⌁︙تـم اعـادة الـحساب بـنجاح ،✅")
+
+    await event.client(functions.account.UpdateProfileRequest(first_name=firstname))
+
+    await event.client(functions.account.UpdateProfileRequest(last_name=lastname))
+
+    await edit_delete(event, "**- تم بنجاح ارجاع الحساب الى وضعه الاصلي**")
+
     if BOTLOG:
+
         await event.client.send_message(
-            BOTLOG_CHATID, f"⌁︙تـم اعادة الـحساب الى وضـعه الاصلـي ،✅")
-        
+
+            BOTLOG_CHATID,
+
+            "#الاعادة\nتم بنجاح اعادة الحساب الى وضعه السابق",
+
+        )
