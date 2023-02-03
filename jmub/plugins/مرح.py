@@ -47,9 +47,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
         mention, f"- المستخدم [{tag}](tg://user?id={user.id}) \n تـم رفـعه مطي هـنا "
@@ -68,9 +68,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
         mention,
@@ -90,9 +90,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
         mention,
@@ -118,9 +118,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     muh = user.first_name.replace("\u2060", "") if user.first_name else user.username
     sos = random.choice(hena)
     await edit_or_reply(mention, f"{sos} .")
@@ -150,9 +150,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     muh = user.first_name.replace("\u2060", "") if user.first_name else user.username
     sos = random.choice(rr7)
     await edit_or_reply(
@@ -197,9 +197,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(
         mention,
@@ -241,9 +241,9 @@ async def permalink(mention):
     if user.id == 1001132193:
         return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5092041118:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     if user.id == 5190136458:
-           return await edit_or_reply(mention, f"- العب بعيد يبني ")
+        return await edit_or_reply(mention, f"- العب بعيد يبني ")
     muh = user.first_name.replace("\u2060", "") if user.first_name else user.username
     sos = random.choice(kz)
     await edit_or_reply(
